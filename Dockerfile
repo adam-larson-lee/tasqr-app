@@ -1,7 +1,5 @@
 FROM node:12.19.0-alpine
 
-RUN apk update && apk add bash
-
 WORKDIR /usr/src/app
 COPY package*.json .
 RUN npm i
