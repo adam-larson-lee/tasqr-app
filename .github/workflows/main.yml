@@ -24,7 +24,7 @@ jobs:
         run: npm run build
       -
         name: Test
-        run: npm test
+        run: npm test --browsers ChromeHeadless --watch=false
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v1
