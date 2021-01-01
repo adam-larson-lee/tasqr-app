@@ -20,9 +20,6 @@ jobs:
         name: Install
         run: npm i
       -
-        name: Build
-        run: npm run build
-      -
         name: Test
         run: npm run test:headless
       -
